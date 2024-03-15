@@ -1,6 +1,11 @@
 # Copyright (c) 2023 Qualcomm Innovation Center, Inc. All rights reserved.
 # SPDX-License-Identifier: BSD-3-Clause-Clear
 
+#define undefined stuff idk
+attribute vendor_hal_umd_server;
+attribute vendor_hal_umd;
+attribute vendor_hal_umd_client;
+
 #Define domain
 type vendor_hal_umd_qti, domain;
 type vendor_hal_umd_qti_exec, file_type, vendor_file_type, exec_type;
